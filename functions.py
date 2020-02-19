@@ -1,5 +1,6 @@
 # Adam Shaat
 # a function to sqaure numbers
+import math
 
 def power(x, y):
   ans = x
@@ -14,5 +15,14 @@ def f(x):
   ans = ans - (power(x, 3) // 10)
   return ans
 
-print(f(2))
+def isprime(i):
+
+  # loop through all values from 2 up to
+  # but not including i.
+  for j in range(2, math.floor(math.sqrt(i))):
+    if i % j == 0:
+      # if it does, i isn't a prime so exit
+      # the loop and indicate it's not prime.  
+      return False
+  return True
 
