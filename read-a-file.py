@@ -1,5 +1,6 @@
 # Adam
 
-with open("C:\\Users\\lenovo\\Anaconda3\\python.exe", "rb") as f:
-    for line in f:
-        print(line, end="")
+with open("myfile.txt", "a") as f:
+    print(f.tell())
+    f.write("\nHello, from the line!")
+    print(f.tell())
