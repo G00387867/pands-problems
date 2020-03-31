@@ -22,7 +22,7 @@
 #print(e)
 
 # Requirement for this assignmnet is to only print
-#  The occurence of letter E
+#  The occurence of letter E.
 
 fname = input("Enter file name: ")
 e = 0

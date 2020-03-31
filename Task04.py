@@ -9,14 +9,19 @@
 # first number and then check if it has a positive value
 
 n = int(input("please enter a number: " ))
-while n > 0:
-    n -= 1
-    if n % 2 == 0:
-        print(n/2)
-    elif n != 0:
-        print((n*3)+1)
-    else:
-         n == 2
 
-    print(n)
-    break
+while n != 1:
+    # for even numbers:
+    if n % 2== 0:
+        n=int(n/2)
+        print(n)
+    # for other integers (odd numbers)
+    else:
+        n=int(n*3+1)
+        print(n)
+
+print("End.")
+
+
+    
+
