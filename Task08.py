@@ -16,3 +16,5 @@ plt.plot(x, y3, 'b.', label = 'h(x)') # plot of h(x) = x**3
 plt.legend()
 # title for the graph
 plt.title('Task08')
+plt.xlabel('X')
+plt.ylabel('Y')
