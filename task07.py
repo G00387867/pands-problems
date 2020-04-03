@@ -15,7 +15,7 @@
         #words = line.split()
         #for i in words:
             #for letter in i:
-                #if(letter == l):
+                #if(letter == e):
                     #e = e+1
 
 #print("Occurences of the letter: ")
